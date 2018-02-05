@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "authors": [
+    "Phongsathorn Eakamongul <phong.ek@gmail.com>"
+  ],
+  "description": "test",
+  "main": "test",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dsin/AngularJS1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-mocks": "^1.6.9"
+  }
+}

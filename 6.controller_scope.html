@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+    <script language="javascript">
+      var myApp = angular.module('myApp',[]);
+
+      myApp.controller('GreetingController', ['$scope', function($scope) {
+        $scope.greeting = 'Hola!';
+      }])
+    </script>
+  </head>
+  <body>
+    <div ng-app="myApp">
+      <div ng-controller="GreetingController">
+        {{ greeting }}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "whatever",
+  "version": "0.0.1",
+  "description": "whatever",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "dsin",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app>
+      <h1>Binding {{ message }}</h1>
+      <!-- Binding using ng-model -->
+      <input type="text" ng-model="message" ng-init="message = 'hello'">
+      <!-- Binding Using Brackets -->
+      <p>{{ message }}</p>
+      <p>{{ message + message}}</p>
+      <p>{{ message === 'hello'}}</p>
+      <!-- One time binding : This is init from ng-init. More info https://docs.angularjs.org/guide/expression#one-time-binding -->
+      <p ng-bind="::message === 'hello'"></p>
+      <p>{{ 1 + 2 }}</p>     
+    </div>
+  </body>
+</html>
