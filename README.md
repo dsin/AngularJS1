@@ -3,14 +3,14 @@ AngularJS1
 
 # Installation
 1) Install npm
-```
-$ npm install
-```
+  ```
+  $ npm install
+  ```
 
 1) Install bower
-```
-$ bower install
-```
+  ```
+  $ bower install
+  ```
 
 # Running Karma
 ```
