@@ -1,6 +1,22 @@
 # AngularJS1
 AngularJS1
 
+# Installation
+1) Install npm
+```
+$ npm install
+```
+
+1) Install bower
+```
+$ bower install
+```
+
+# Running Karma
+```
+$ karma start spec/karma.conf.js --single-run --browsers Chrome,Firefox
+```
+
 # References 
 * https://thinkster.io/a-better-way-to-learn-angularjs#introduction
   * https://docs.angularjs.org/guide/concepts
