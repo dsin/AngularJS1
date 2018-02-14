@@ -1,21 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
-    <script language="javascript">
-      var myApp = angular.module('scopeInheritance', []);
-      myApp.controller('MainController', ['$scope', function($scope) {
-        $scope.timeOfDay = 'morning';
-        $scope.name = 'Nikki';
-      }]);
-      myApp.controller('ChildController', ['$scope', function($scope) {
-        $scope.name = 'Mattie';
-      }]);
-      myApp.controller('GrandChildController', ['$scope', function($scope) {
-        $scope.timeOfDay = 'evening';
-        $scope.name = 'Gingerbread Baby';
-      }]);
-    </script>
+    <script src="vendor/assets/bower_components/angular/angular.min.js"></script>
+    <script src="javascripts/controller/10.controller_scope_inheritance.js"></script>
     <style>
       div.spicy div {
         padding: 10px;

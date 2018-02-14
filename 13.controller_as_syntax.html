@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AngularJS Controllers</title>
+    <script src="vendor/assets/bower_components/angular/angular.min.js"></script>
+    <script language="javascript">
+      angular.module('app', []);
+    
+      angular.module('app').controller('MainCtrl', function () {
+        var self = this;
+
+        self.message = 'hello';
+
+        self.changeMessage = function(message) {
+          self.message = message;
+        };
+      });
+    </script>
+  </head>
+  <body>
+    <div ng-app="app">
+      <h1>Controllers</h1>
+      <div ng-controller="MainCtrl as main">
+        <p>{{ main.message }}</p>
+        <form ng-submit="main.changeMessage(main.newMessage)">
+          <input type="text" ng-model="main.newMessage">
+          <button type="submit">Change Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
